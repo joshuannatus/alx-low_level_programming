@@ -4,7 +4,6 @@
  * @n: times diagonal line is printed.
  * Return: no return.
  **/
-void _putchar();
 void print_diagonal(int n)
 {
 	int i, j;
