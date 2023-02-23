@@ -4,7 +4,6 @@
  * @size: size of the square.
  * Return: no return.
  **/
-void _putchar();
 void print_square(int size)
 {
 	int i, j;
