@@ -4,7 +4,6 @@
  * @n: times straight line is printed.
  * Return: no return.
  **/
-void _putchar();
 void print_line(int n)
 {
 	int i;
