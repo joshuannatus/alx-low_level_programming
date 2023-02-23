@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit.c - This c program check for a digit (0 through 9)
+ * _isdigit - This c program check for a digit (0 through 9)
  *
  * @c: This is the variable that would be checked 
  *
@@ -8,7 +8,7 @@
  **/
 int _isdigit(int c)
 {
-	if (c>= 48 && c <=57)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
