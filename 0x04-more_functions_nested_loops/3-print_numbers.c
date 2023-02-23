@@ -5,14 +5,13 @@
  *
  * Return: The value of 0 to 9
  **/
-void _putchar();
 void print_numbers(void)
 {
-	int ch;
+	int i;
 
-	for (ch = 48; ch < 58; ch++)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(ch);
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
