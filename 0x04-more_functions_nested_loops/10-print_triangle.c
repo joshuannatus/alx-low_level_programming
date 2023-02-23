@@ -4,7 +4,6 @@
  * @size: numbers of lines.
  * Return: no return.
  **/
-/*void _putchar(void);*/
 void print_triangle(int size)
 {
 	int i, j;
